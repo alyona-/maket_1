@@ -1,0 +1,53 @@
+.container,.block_odegda, .name, .price {
+    border:1px solid #000;
+}
+.container {
+    width:80%;
+    height: 300px;
+    margin: 0 auto;
+}
+.block_odegda {
+    position: relative;
+    background-color: #fcfcfc;
+ /* border: 1px solid #f8f8f8;*/
+   width:30%;
+   height:50%;
+   float: left;
+   margin-left: 2%;
+}
+.name {
+   position: absolute;
+   color:#8f8f8f;
+   bottom: 0;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   background: #e8e8e8;
+}
+.price {
+   color:#f02b63;
+    float: right;
+}
+.block_odegda{
+    background-repeat: no-repeat;
+    background-position: 60% 20%;
+    background-size: 80%;
+}
+.block_odegda:nth-child(1) {
+    background-image: url(../img/line_of_products/кроссовок_1.png);
+}
+.block_odegda:nth-child(2) {
+    background-image: url(../img/line_of_products/кроссовок_1.png);
+}
+.block_odegda:nth-child(3) {
+    background-image: url(../img/line_of_products/кроссовок_1.png);
+}
+.block_odegda:nth-child(4) {
+    background-image: url(../img/line_of_products/кроссовок_1.png);
+}
+.block_odegda:nth-child(5) {
+    background-image: url(../img/line_of_products/кроссовок_1.png);
+}
+.block_odegda:nth-child(6) {
+    background-image: url(../img/line_of_products/кроссовок_1.png);
+}
